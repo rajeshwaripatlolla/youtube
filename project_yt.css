@@ -1,0 +1,169 @@
+.main_cont{
+    width:1500px;
+    padding:15px;
+    /* overflow-y: scroll;  
+    overflow-x: hidden;
+    z-index: 1;
+     */
+}
+/* .main_cont::-webkit-scrollbar {
+    display: none;
+} */
+header{
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    column-gap: 15px;
+    position:sticky;
+    top:0px;
+    z-index:1;  
+}
+
+
+.icon{
+    font-size: 40px;
+}
+.logo_icon{
+    color: red;
+    
+}
+.logo{
+    margin-top:8px;
+    font-size: 26px;
+   
+}
+.search{
+    margin-top:5px;
+    margin-left:200px;
+    border-radius: 20px;
+    width:650px;
+    height:35px;
+}
+.icon1{
+    font-size: 27px;
+    margin-top: 10px;
+}
+.mic{
+    margin-right: 150px;
+}
+.icon3{
+    margin-right: 40px;
+}
+.profile{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    margin-top:7px;
+}
+nav{
+    display: inline-block;
+    width:100px;
+}
+
+.nav_items{
+    list-style: none;
+    position: sticky;
+    top: 50px;
+    z-index: 1;
+
+}
+.icon4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+li{
+    margin-bottom: 45px;
+    margin-left: -35px;
+}
+.btn_cont{
+    border: 1px antiquewhite;
+    background-color:white;
+    display: inline-block;
+    position: relative;
+    bottom: 330px;
+    /* position: sticky;
+    top: 10px;
+    padding: 5px;
+     */
+    
+     
+}
+.hh{
+    display: none;
+    color: antiquewhite;}
+    .profile:hover~ .hh{
+        display: block;
+    }
+
+#suresh{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+#pro{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+#music{color: black;
+    background-color: transparent;
+    text-decoration: none;}
+
+
+.btn{
+    height:40px;
+    padding:10px;
+    border-width: 0px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-right:10px;
+}
+.vid1{
+    position: relative;
+    bottom: 350px;
+    left: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.vid2{
+    position: relative;
+    bottom: 350px;
+    left:80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.vid3{
+    position: relative;
+    bottom: 350px;
+    left: 80px;
+    display: flex;
+    justify-content:space-evenly ;
+}
+.vid4{
+    position: relative;
+    bottom: 350px;
+    left: 80px;
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+.raji{
+    padding-left: 10px;
+    font-size: 17px;
+}
+.rj1,.rj2,.rj3{
+    font-size: 17px;
+   padding-left: 40px;
+  
+}
+.ye1,.ye2,.ye3,.ye4{
+    padding-left: 40px;
+    font-size: 17px;
+
+}
+.row4{
+    font-size: 17px;
+    padding-left: 40px;
+}
+
+
